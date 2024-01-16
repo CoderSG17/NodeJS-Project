@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    height: 50px;
+    background-color: lightblue;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 50vw;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+}
+
+.left :active{
+    color:purple;
+}
+.right{
+    width: 50vw;
+    border: 1px solid red;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:80px ;
+}
+
+.right a{
+    padding:0px 40px;
+    text-decoration: none;
+}
+.right a:active{
+    color:purple;
+}
+

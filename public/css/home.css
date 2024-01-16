@@ -1,0 +1,31 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.leftDiv{
+    height: 85vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rightDiv{
+    height: 85vh;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    height: 30px;
+    border-radius: 30px;
+    width: 80px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.img{
+    height: 400px;
+    width: 400px;
+}

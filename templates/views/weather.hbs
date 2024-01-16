@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../public/css/weather.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    {{>navbar}}
+    <div class="search">
+        <input type="text" placeholder="enter text" class="inp">
+        <div class="btnctn">
+            <button class="btn">Search</button>
+        </div>
+    </div>
+    <div class="optDivParent">
+        <div class="optDiv">
+            <div class="details">
+                <div class="lft">
+
+                </div>
+                <div class="rgt">
+
+                </div>
+            </div>
+            <div class="output">
+            </div>
+
+            <div class="cntemp">
+                <div class="leftDiv">
+                    <div class="country">
+                    </div>
+                    <div class="temp" style="padding-top: 20px;">
+                    </div>
+                    </div>
+                    <div class="rightDiv">
+                        <div class="weatherIcon"></div>
+                        <div class="status" style="padding-top: 10px;"></div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    {{>footer}}
+
+    <script src="../../weather.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</body>
+
+</html>
